@@ -1,6 +1,6 @@
-# SuperBizAgent
+# 智能运维 Agent
 
-SuperBizAgent 是一个面向实验室与业务运维场景的智能 Agent 项目，包含 Go 后端、原生 Web 前端、知识库索引、Milvus 向量检索以及若干本地运维工具。它可以进行普通/流式对话、上传文档构建知识库，并查询 GPU、Python 环境、日志、告警和内部文档等信息。
+这是一个面向实验室与业务运维场景的智能 Agent 项目，包含 Go 后端、原生 Web 前端、知识库索引、Milvus 向量检索以及若干本地运维工具。它可以进行普通/流式对话、上传文档构建知识库，并查询 GPU、Python 环境、日志、告警和内部文档等信息。
 
 ## 效果预览
 
@@ -23,12 +23,12 @@ SuperBizAgent 是一个面向实验室与业务运维场景的智能 Agent 项�
 |-- manifest/
 |   |-- config/config.yaml        # 后端配置文件
 |   `-- docker/docker-compose.yml # Milvus / Etcd / MinIO / Attu
-|-- SuperBizAgentFrontend/        # 前端页面与静态资源
-|-- docs/                         # 示例知识库文档
-|-- image/                        # README 与页面展示图片
-|-- main.go                       # 后端入口
-|-- start-all.ps1                 # Windows 一键启动脚本
-`-- start-all.cmd                 # 双击启动入口
+|-- Frontend/                    # 前端页面与静态资源
+|-- docs/                        # 示例知识库文档
+|-- image/                       # README 与页面展示图片
+|-- main.go                      # 后端入口
+|-- start-all.ps1                # Windows 一键启动脚本
+`-- start-all.cmd                # 双击启动入口
 ```
 
 ## 环境要求
@@ -79,7 +79,7 @@ docker compose up -d
 启动后端：
 
 ```powershell
-$env:GF_GCFG_PATH = "E:\GO-Agent\manifest\config"
+$env:GF_GCFG_PATH = (Resolve-Path .\manifest\config).Path
 $env:GF_GCFG_FILE = "config.yaml"
 go run .
 ```
@@ -87,7 +87,7 @@ go run .
 启动前端：
 
 ```powershell
-cd SuperBizAgentFrontend
+cd Frontend
 python -m http.server 8080
 ```
 
@@ -132,7 +132,7 @@ curl -X POST http://localhost:6872/api/chat \
 
 ## 前端说明
 
-前端代码位于 `SuperBizAgentFrontend/`，无需构建即可运行。主要文件包括：
+前端代码位于 `Frontend/`，无需构建即可运行。主要文件包括：
 
 - `index.html`：页面入口
 - `app.js`：对话、流式响应和文件上传逻辑
@@ -147,7 +147,7 @@ curl -X POST http://localhost:6872/api/chat \
 确认已设置：
 
 ```powershell
-$env:GF_GCFG_PATH = "E:\GO-Agent\manifest\config"
+$env:GF_GCFG_PATH = (Resolve-Path .\manifest\config).Path
 $env:GF_GCFG_FILE = "config.yaml"
 ```
 

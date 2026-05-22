@@ -54,9 +54,9 @@ $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $DockerDir = Join-Path $Root "manifest\docker"
 $ComposeFile = Join-Path $DockerDir "docker-compose.yml"
 $ConfigDir = Join-Path $Root "manifest\config"
-$FrontendDir = Join-Path $Root "SuperBizAgentFrontend"
+$FrontendDir = Join-Path $Root "Frontend"
 
-Write-Host "SuperBizAgent launcher" -ForegroundColor Green
+Write-Host "Agent launcher" -ForegroundColor Green
 Write-Host "Project root: $Root"
 
 Require-Command docker "Please install and start Docker Desktop first."

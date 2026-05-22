@@ -1,7 +1,7 @@
 {
-  "name": "superbizagent-frontend",
+  "name": "agent-frontend",
   "version": "1.0.0",
-  "description": "SuperBizAgent 前端对话界面",
+  "description": "Agent frontend chat console",
   "main": "index.html",
   "scripts": {
     "start": "python3 -m http.server 8080",
@@ -15,7 +15,7 @@
     "sse",
     "streaming"
   ],
-  "author": "SuperBizAgent Team",
+  "author": "Agent Team",
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {},
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/SuperBizAgentFrontend.git"
+    "url": "https://github.com/your-org/agent-frontend.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/SuperBizAgentFrontend/issues"
+    "url": "https://github.com/your-org/agent-frontend/issues"
   },
-  "homepage": "https://github.com/your-org/SuperBizAgentFrontend#readme"
+  "homepage": "https://github.com/your-org/agent-frontend#readme"
 }
