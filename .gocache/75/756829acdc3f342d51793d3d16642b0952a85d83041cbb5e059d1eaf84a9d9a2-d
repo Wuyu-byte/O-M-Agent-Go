@@ -1,0 +1,8 @@
+./gvalid.go
+./gvalid_error.go
+./gvalid_register.go
+./gvalid_validator.go
+./gvalid_validator_check_map.go
+./gvalid_validator_check_struct.go
+./gvalid_validator_check_value.go
+./gvalid_validator_message.go

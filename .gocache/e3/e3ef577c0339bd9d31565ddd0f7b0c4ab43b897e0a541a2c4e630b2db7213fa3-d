@@ -1,0 +1,6 @@
+./chat.go
+./chat_new.go
+./chat_v1_ai_ops.go
+./chat_v1_chat.go
+./chat_v1_chat_stream.go
+./chat_v1_file_upload.go

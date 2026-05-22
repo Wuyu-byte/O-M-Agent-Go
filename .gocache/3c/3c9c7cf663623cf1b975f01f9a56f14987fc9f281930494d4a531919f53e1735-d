@@ -1,0 +1,6 @@
+./gcfg.go
+./gcfg_adaper.go
+./gcfg_adapter_content.go
+./gcfg_adapter_file.go
+./gcfg_adapter_file_content.go
+./gcfg_adapter_file_path.go

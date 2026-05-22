@@ -1,0 +1,15 @@
+./gtype.go
+./gtype_any.go
+./gtype_bool.go
+./gtype_byte.go
+./gtype_bytes.go
+./gtype_float32.go
+./gtype_float64.go
+./gtype_int.go
+./gtype_int32.go
+./gtype_int64.go
+./gtype_interface.go
+./gtype_string.go
+./gtype_uint.go
+./gtype_uint32.go
+./gtype_uint64.go

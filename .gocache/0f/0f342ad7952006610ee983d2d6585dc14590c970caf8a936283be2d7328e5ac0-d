@@ -1,0 +1,7 @@
+./gres.go
+./gres_file.go
+./gres_func.go
+./gres_func_zip.go
+./gres_http_file.go
+./gres_instance.go
+./gres_resource.go

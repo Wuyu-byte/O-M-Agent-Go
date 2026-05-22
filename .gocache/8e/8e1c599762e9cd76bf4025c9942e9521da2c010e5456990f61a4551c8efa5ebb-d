@@ -1,0 +1,15 @@
+./client.go
+./doc.go
+./dsn.go
+./hub.go
+./integrations.go
+./interfaces.go
+./scope.go
+./sentry.go
+./sourcereader.go
+./span_recorder.go
+./stacktrace.go
+./traces_sampler.go
+./tracing.go
+./transport.go
+./util.go

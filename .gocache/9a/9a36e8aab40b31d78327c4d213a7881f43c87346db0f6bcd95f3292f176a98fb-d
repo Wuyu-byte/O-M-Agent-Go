@@ -1,0 +1,9 @@
+./ghash.go
+./ghash_ap.go
+./ghash_bkdr.go
+./ghash_djb.go
+./ghash_elf.go
+./ghash_jshash.go
+./ghash_pjw.go
+./ghash_rs.go
+./ghash_sdbm.go

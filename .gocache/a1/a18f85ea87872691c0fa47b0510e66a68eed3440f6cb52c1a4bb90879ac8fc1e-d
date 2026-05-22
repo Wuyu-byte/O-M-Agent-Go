@@ -1,0 +1,8 @@
+./gtcp.go
+./gtcp_conn.go
+./gtcp_conn_pkg.go
+./gtcp_func.go
+./gtcp_func_pkg.go
+./gtcp_pool.go
+./gtcp_pool_pkg.go
+./gtcp_server.go

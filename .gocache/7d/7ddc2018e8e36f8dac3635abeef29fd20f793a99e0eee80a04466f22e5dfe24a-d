@@ -1,0 +1,8 @@
+./garray.go
+./garray_func.go
+./garray_normal_any.go
+./garray_normal_int.go
+./garray_normal_str.go
+./garray_sorted_any.go
+./garray_sorted_int.go
+./garray_sorted_str.go

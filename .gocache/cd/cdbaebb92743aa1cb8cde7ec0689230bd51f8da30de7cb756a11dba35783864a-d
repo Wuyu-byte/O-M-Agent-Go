@@ -1,0 +1,7 @@
+./gcmd.go
+./gcmd_command.go
+./gcmd_command_help.go
+./gcmd_command_object.go
+./gcmd_command_run.go
+./gcmd_parser.go
+./gcmd_scan.go

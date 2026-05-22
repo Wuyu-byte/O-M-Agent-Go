@@ -1,0 +1,5 @@
+./gstructs.go
+./gstructs_field.go
+./gstructs_field_tag.go
+./gstructs_tag.go
+./gstructs_type.go

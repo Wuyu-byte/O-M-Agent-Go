@@ -1,0 +1,7 @@
+./gview.go
+./gview_buildin.go
+./gview_config.go
+./gview_error.go
+./gview_i18n.go
+./gview_instance.go
+./gview_parse.go

@@ -1,0 +1,5 @@
+./gfsnotify.go
+./gfsnotify_event.go
+./gfsnotify_filefunc.go
+./gfsnotify_watcher.go
+./gfsnotify_watcher_loop.go

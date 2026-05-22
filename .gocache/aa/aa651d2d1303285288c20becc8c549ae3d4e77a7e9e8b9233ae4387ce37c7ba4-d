@@ -1,0 +1,12 @@
+./gfile.go
+./gfile_cache.go
+./gfile_contents.go
+./gfile_copy.go
+./gfile_home.go
+./gfile_replace.go
+./gfile_scan.go
+./gfile_search.go
+./gfile_size.go
+./gfile_sort.go
+./gfile_source.go
+./gfile_time.go

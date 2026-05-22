@@ -1,0 +1,4 @@
+./gcompress.go
+./gcompress_gzip.go
+./gcompress_zip.go
+./gcompress_zlib.go

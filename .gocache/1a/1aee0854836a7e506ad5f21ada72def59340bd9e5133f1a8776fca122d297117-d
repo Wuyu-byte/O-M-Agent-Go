@@ -1,0 +1,13 @@
+./gredis.go
+./gredis_adapter.go
+./gredis_config.go
+./gredis_instance.go
+./gredis_redis.go
+./gredis_redis_group_generic.go
+./gredis_redis_group_hash.go
+./gredis_redis_group_list.go
+./gredis_redis_group_pubsub.go
+./gredis_redis_group_script.go
+./gredis_redis_group_set.go
+./gredis_redis_group_sorted_set.go
+./gredis_redis_group_string.go

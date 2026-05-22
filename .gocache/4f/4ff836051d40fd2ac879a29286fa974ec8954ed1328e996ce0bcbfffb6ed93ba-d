@@ -1,0 +1,9 @@
+./gsession.go
+./gsession_manager.go
+./gsession_session.go
+./gsession_storage.go
+./gsession_storage_base.go
+./gsession_storage_file.go
+./gsession_storage_memory.go
+./gsession_storage_redis.go
+./gsession_storage_redis_hashtable.go

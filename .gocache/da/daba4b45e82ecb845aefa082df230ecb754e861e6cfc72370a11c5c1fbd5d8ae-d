@@ -1,0 +1,5 @@
+./gbinary.go
+./gbinary_be.go
+./gbinary_bit.go
+./gbinary_func.go
+./gbinary_le.go

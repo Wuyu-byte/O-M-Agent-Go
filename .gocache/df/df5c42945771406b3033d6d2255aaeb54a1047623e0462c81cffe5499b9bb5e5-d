@@ -1,0 +1,7 @@
+./gsvc.go
+./gsvc_discovery.go
+./gsvc_endpoint.go
+./gsvc_endpoints.go
+./gsvc_metadata.go
+./gsvc_registry.go
+./gsvc_service.go

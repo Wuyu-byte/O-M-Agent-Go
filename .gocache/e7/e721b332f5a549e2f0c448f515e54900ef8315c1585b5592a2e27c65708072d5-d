@@ -1,0 +1,5 @@
+./embedding.go
+./indexer.go
+./loader.go
+./orchestration.go
+./transformer.go

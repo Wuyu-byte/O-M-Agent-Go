@@ -1,0 +1,11 @@
+./gcache.go
+./gcache_adapter.go
+./gcache_adapter_memory.go
+./gcache_adapter_memory_data.go
+./gcache_adapter_memory_expire_sets.go
+./gcache_adapter_memory_expire_times.go
+./gcache_adapter_memory_item.go
+./gcache_adapter_memory_lru.go
+./gcache_adapter_redis.go
+./gcache_cache.go
+./gcache_cache_must.go
