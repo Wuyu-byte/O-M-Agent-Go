@@ -1,8 +1,0 @@
-./gvar.go
-./gvar_is.go
-./gvar_list.go
-./gvar_map.go
-./gvar_scan.go
-./gvar_slice.go
-./gvar_struct.go
-./gvar_vars.go

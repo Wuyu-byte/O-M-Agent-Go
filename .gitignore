@@ -16,5 +16,5 @@ manifest/output/
 temp/
 temp.yaml
 bin
-
+.gocache
 manifest/docker/volumes

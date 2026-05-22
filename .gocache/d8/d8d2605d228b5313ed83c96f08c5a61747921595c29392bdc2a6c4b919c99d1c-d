@@ -1,7 +1,0 @@
-./get_current_time.go
-./lab_ops.go
-./mysql_crud.go
-./query_arxiv.go
-./query_internal_docs.go
-./query_log.go
-./query_metrics_alerts.go
