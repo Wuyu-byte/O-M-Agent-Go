@@ -26,4 +26,4 @@ doubao_embedding_model:
 
 file_dir: "E:/GO-Agent/internal/ai/cmd/knowledge_cmd/docs"
 
-mcp_url: "https://mcp-api.tencent-cloud.com/sse/XXXX"
+mcp_url: "http://localhost:3000/sse"

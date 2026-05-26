@@ -29,7 +29,7 @@ file_dir: "E:/GO-Agent/internal/ai/cmd/knowledge_cmd/docs"
 lab_log_dir: "E:/GO-Agent/logs"
 
 log_mcp_enabled: false
-mcp_url: "https://mcp-api.tencent-cloud.com/sse/XXXX"
+mcp_url: "http://localhost:3000/sse"
 
 # arXiv MCP: https://github.com/blazickjp/arxiv-mcp-server
 # Set arxiv_mcp_enabled to true after installing uv and arxiv-mcp-server.
