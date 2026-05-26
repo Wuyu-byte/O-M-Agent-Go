@@ -5,6 +5,7 @@
 ## 效果预览
 
 ![GPU 资源查询效果](image/c694329272d9dd2b0eb65c63214ba150.png)
+![现有工具展示](image/bf3a63172839b1eef83ac8226fc8baa5.png)
 
 ## 功能特性
 

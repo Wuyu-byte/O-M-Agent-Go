@@ -17,4 +17,4 @@ bin
 .gocache
 manifest/docker/volumes
 .env
-.yaml
+*.yaml
